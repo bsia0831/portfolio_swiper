@@ -1,4 +1,4 @@
-const menu = ["Company", "About", "Information", "News"];
+const menu = ["Company", "About", "Information", "News", "Contact"];
 
 const swiper = new Swiper("#wrap", {
     loop: true,
@@ -20,16 +20,7 @@ const swiper = new Swiper("#wrap", {
             return `<span class="${className}">${menu[index]}</span>`
         }
 
-    },
-    /*
-    effect: "coverflow",
-    coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 400,
-        slideShadows: false
     }
-    */
 });
 
 //Dom Caching

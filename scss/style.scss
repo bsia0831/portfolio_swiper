@@ -88,12 +88,22 @@
         opacity: 0.7;
     }
 
+    .swiper-logo{
+        position: absolute;
+        left: auto;
+        width: auto;
+        height: 50px;
+        left: 10vw;
+        top: 9vh;
+        font: italic 50px/1 'airal';
+    }
+
     .swiper-pagination {
         position: absolute;
         left: auto;
         width: auto;
         height: 50px;
-        right: 10vw;
+        left: 15vw;
         top: 10vh;
 
         span {
@@ -108,6 +118,16 @@
                 opacity: 1; 
                 font-weight: bold;
             }
+        }
+        &::after{
+            content: '';
+            display: inline-block;
+            width: 670px;
+            border: 1px solid #111;
+            position: absolute;
+            right: -700px;
+            top: 1vh;
+            transform: scaleY(0.5);
         }
     }
 

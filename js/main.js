@@ -34,7 +34,7 @@ prev.addEventListener("click", activation);
 window.addEventListener("mousewheel", activation);
 swiper.on("slideChangeTransitionEnd", activation);
 
-for(let el of navi){
+for(let el of navi){swiper-slide-active
     el.addEventListener("click", e=>{
         const isOn = e.currentTarget.classList.contains("swiper-pagination-bullet-active");
         if(isOn) return;

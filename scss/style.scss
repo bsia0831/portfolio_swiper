@@ -2,6 +2,9 @@
 @import "reset";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+
 
 
 body{
@@ -42,15 +45,15 @@ body{
 
         .swiper-slide {
             width: 80vw;
-            height: 65vh;
+            height: 70vh;
             position: relative;
-            top: 20vh;
+            top: 17vh;
 
             .inner {
                 width: 100%;
                 height: 100%;
-                border-top: 5px solid #fff;
-                border-bottom: 5px solid #fff;
+                border-top: 5px solid #efefef;
+                border-bottom: 5px solid #efefef;
                 background: rgba(255,255,255,0.5);
                 padding: 20px;
                 backdrop-filter: blur(10px);
@@ -65,11 +68,10 @@ body{
         
         &:nth-of-type(1){
             .inner{
-                background: #e0eeff;
                 h1{
                     position: relative;
                     display: block;
-                    font: bold 30px 'Heebo'; color: #2D69B4;
+                    font: bold 30px 'Gowun Dodum'; color: #2D69B4;
                     text-align: center;
                     margin-bottom: 20px;
                 }
@@ -97,13 +99,42 @@ body{
                             }
                         }
                         &:nth-of-type(2){
-                            width: 70%;
-                            height: 100%;
+                            width: 25%;
+                            height: 55%;
+                            margin-top: 30px;
                             h2{
-                                font: 20px/2 'Heebo';
-                                word-break: break-all;
-                                padding-right: 40px;
-                                padding-top: 58px;
+                                font: 20px/1 'Gowun Dodum';
+                                margin-bottom: 10px;
+                            }
+
+                            h3{
+                                font: 20px/1 'Gowun Dodum';
+                                margin-bottom: 30px;
+                            }
+                        }
+
+                        &:nth-of-type(3){
+                            width: 45%;
+                            height: 55%;
+                            padding-top: 5px;
+                            padding-right: 10px;
+                            margin-top: 30px;
+                            h3{
+                                font: 20px/1.2 'Gowun Dodum';
+                            }
+                        }
+
+                        &:nth-of-type(n + 4){
+                            width: 35%;
+                            height: 45%;
+                            h4{
+                                font: bold 20px/1.2 'Gowun Dodum';
+                                margin-bottom: 10px;
+                            }
+
+                            h5{
+                                font: 15px/1.2 'Gowun Dodum';
+                                margin-bottom: 5px;
                             }
                         }
                     }
@@ -136,8 +167,8 @@ body{
         width: auto;
         height: 50px;
         left: 10vw;
-        top: 8.5vh;
-        font: bold 40px/1 'Heebo';
+        top: 6vh;
+        font: bold 40px/1 'Gowun Dodum'; color: #fff;
     }
 
     .swiper-pagination {
@@ -146,15 +177,16 @@ body{
         width: auto;
         height: 50px;
         left: 15vw;
-        top: 10vh;
+        top: 7vh;
 
         span {
             width: auto;
             height: auto;
             background: transparent;
             border-radius: 0px;
-            margin-left: 60px;
-            opacity: 0.7;
+            margin-left: 40px;
+            opacity: 0.7; color: #fff;
+            font-family: 'Gown Dodum';
 
             &.swiper-pagination-bullet-active {
                 opacity: 1; 
@@ -164,10 +196,10 @@ body{
         &::after{
             content: '';
             display: inline-block;
-            width: 730px;
-            border: 1px solid #111;
+            width: 580px;
+            border: 1px solid #fff;
             position: absolute;
-            right: -770px;
+            right: -605px;
             top: 1vh;
             transform: scaleY(0.5);
         }

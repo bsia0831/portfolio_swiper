@@ -24,19 +24,13 @@ body{
         background-size: cover;
         opacity: 0;
         transition: 1s;
-
+        
+        video{
+            width: 100%;
+            object-fit: cover;
+        }
         &.on {
             opacity: 1;
-        }
-        
-        &:nth-of-type(2) {
-            background-image: url(../img/bg2.jpg);
-        }
-        &:nth-of-type(3) {
-            background-image: url(../img/bg3.jpg);
-        }
-        &:nth-of-type(4) {
-            background-image: url(../img/bg4.jpg);
         }
     }
 
@@ -45,7 +39,7 @@ body{
         height: 100%;
 
         .swiper-slide {
-            width: 60vw;
+            width: 80vw;
             height: 60vh;
             position: relative;
             top: 20vh;
@@ -120,10 +114,10 @@ body{
         &::after{
             content: '';
             display: inline-block;
-            width: 670px;
+            width: 730px;
             border: 1px solid #111;
             position: absolute;
-            right: -700px;
+            right: -770px;
             top: 1vh;
             transform: scaleY(0.5);
         }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -41,22 +42,57 @@ body {
     height: 100%; }
     #wrap .swiper-wrapper .swiper-slide {
       width: 80vw;
-      height: 60vh;
+      height: 65vh;
       position: relative;
       top: 20vh; }
       #wrap .swiper-wrapper .swiper-slide .inner {
         width: 100%;
         height: 100%;
-        border: 1px solid #fff;
+        border-top: 5px solid #fff;
+        border-bottom: 5px solid #fff;
         background: rgba(255, 255, 255, 0.5);
-        padding: 60px;
-        font: bold 50px/1 "lato";
-        color: #999;
+        padding: 20px;
         backdrop-filter: blur(10px);
         opacity: 0.5;
         transition: opacity 1s; }
       #wrap .swiper-wrapper .swiper-slide.swiper-slide-active .inner {
         opacity: 1; }
+    #wrap .swiper-wrapper:nth-of-type(1) .inner {
+      background: #e0eeff; }
+      #wrap .swiper-wrapper:nth-of-type(1) .inner h1 {
+        position: relative;
+        display: block;
+        font: bold 30px 'Heebo';
+        color: #2D69B4;
+        text-align: center;
+        margin-bottom: 20px; }
+      #wrap .swiper-wrapper:nth-of-type(1) .inner .wrap {
+        width: 100%;
+        height: 80%; }
+        #wrap .swiper-wrapper:nth-of-type(1) .inner .wrap::after {
+          content: '';
+          display: block;
+          clear: both; }
+        #wrap .swiper-wrapper:nth-of-type(1) .inner .wrap article {
+          float: left; }
+          #wrap .swiper-wrapper:nth-of-type(1) .inner .wrap article:nth-of-type(1) {
+            width: 30%;
+            height: 100%; }
+            #wrap .swiper-wrapper:nth-of-type(1) .inner .wrap article:nth-of-type(1) img {
+              width: 70%;
+              height: 100%;
+              margin: 0 auto;
+              display: block;
+              border: 4px solid #fff8f8;
+              object-fit: cover; }
+          #wrap .swiper-wrapper:nth-of-type(1) .inner .wrap article:nth-of-type(2) {
+            width: 70%;
+            height: 100%; }
+            #wrap .swiper-wrapper:nth-of-type(1) .inner .wrap article:nth-of-type(2) h2 {
+              font: 20px/2 'Heebo';
+              word-break: break-all;
+              padding-right: 40px;
+              padding-top: 58px; }
   #wrap .swiper-button-next {
     top: auto;
     bottom: 5vh;
@@ -78,8 +114,8 @@ body {
     width: auto;
     height: 50px;
     left: 10vw;
-    top: 9vh;
-    font: italic 50px/1 'airal'; }
+    top: 8.5vh;
+    font: bold 40px/1 'Heebo'; }
   #wrap .swiper-pagination {
     position: absolute;
     left: auto;

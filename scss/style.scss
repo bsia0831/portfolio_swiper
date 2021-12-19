@@ -78,11 +78,6 @@ body{
                 .wrap{
                     width: 100%;
                     height: 80%;
-                    &::after{
-                        content: '';
-                        display: block;
-                        clear: both;
-                    }
 
                     article{
                         float: left;
@@ -142,7 +137,9 @@ body{
             }
         }
 
-        
+        &:nth-of-type(2){
+            
+        }
     }
 
     .swiper-button-next {

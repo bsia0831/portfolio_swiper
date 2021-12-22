@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+
 
 
 
@@ -64,9 +67,9 @@ body{
             &.swiper-slide-active .inner {
                 opacity: 1;
             }
+
         }
-        
-        &:nth-of-type(1){
+        .intro{
             .inner{
                 h1{
                     position: relative;
@@ -137,31 +140,63 @@ body{
             }
         }
 
-        &:nth-of-type(2){
+        .first, .second, .third{
             .inner{
                 .wrap{
                     width: 100%;
-                    height: 80%;
+                    height: 100%;
                     article{
                         float: left;
                         &:nth-of-type(1){
-                            width: 50%;
+                            width: 20%;
                             height: 100%;
+                            span{
+                                font: lighter 50px/1 'Galada'; color: #8a4928;
+                                margin-bottom: 10px;
+                            }
+                            h2{
+                                font: 30px/1 'Gowun Dodum'; color: #8a4928;
+                                margin-bottom: 30px;
+                            }
+                            h3{
+                                font: 20px/1.2 'Gowun Dodum'; color: #111;
+                                margin-bottom: 130px;
+                            }
+
+                            a{
+                                display: block;
+                                width: 90%;
+                                height: 50px;
+                                text-align: center;
+                                font: 20px/50px 'Gowun Dodum'; color: #838383;
+                                background-color: #ffffff7a;
+                                margin-bottom: 10px;
+                                margin-left: 5px;
+                                transition: all .5s;
+
+                                &:hover{
+                                    color: #8a4928;
+                                }
+                            }
                         }
 
                         &:nth-of-type(2){
-                            width: 50%;
+                            width: 80%;
                             height: 100%;
-                            img{
-                                object-fit: cover;
+                            video{
                                 width: 100%;
                                 height: 100%;
+                                object-fit: cover;
                             }
                         }
                     }
                 }
             }
         }
+        
+
+
+
     }
 
     .swiper-button-next {

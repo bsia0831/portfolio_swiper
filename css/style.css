@@ -123,11 +123,11 @@ body {
           height: 100%; }
           #wrap .swiper-wrapper .first .inner .wrap article:nth-of-type(1) span, #wrap .swiper-wrapper .second .inner .wrap article:nth-of-type(1) span, #wrap .swiper-wrapper .third .inner .wrap article:nth-of-type(1) span {
             font: lighter 50px/1 'Galada';
-            color: #8a4928;
+            color: #111;
             margin-bottom: 10px; }
           #wrap .swiper-wrapper .first .inner .wrap article:nth-of-type(1) h2, #wrap .swiper-wrapper .second .inner .wrap article:nth-of-type(1) h2, #wrap .swiper-wrapper .third .inner .wrap article:nth-of-type(1) h2 {
             font: 30px/1 'Gowun Dodum';
-            color: #8a4928;
+            color: #111;
             margin-bottom: 30px; }
           #wrap .swiper-wrapper .first .inner .wrap article:nth-of-type(1) h3, #wrap .swiper-wrapper .second .inner .wrap article:nth-of-type(1) h3, #wrap .swiper-wrapper .third .inner .wrap article:nth-of-type(1) h3 {
             font: 20px/1.2 'Gowun Dodum';
@@ -145,7 +145,7 @@ body {
             margin-left: 5px;
             transition: all .5s; }
             #wrap .swiper-wrapper .first .inner .wrap article:nth-of-type(1) a:hover, #wrap .swiper-wrapper .second .inner .wrap article:nth-of-type(1) a:hover, #wrap .swiper-wrapper .third .inner .wrap article:nth-of-type(1) a:hover {
-              color: #8a4928; }
+              color: #111; }
         #wrap .swiper-wrapper .first .inner .wrap article:nth-of-type(2), #wrap .swiper-wrapper .second .inner .wrap article:nth-of-type(2), #wrap .swiper-wrapper .third .inner .wrap article:nth-of-type(2) {
           width: 80%;
           height: 100%; }

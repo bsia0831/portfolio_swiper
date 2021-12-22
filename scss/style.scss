@@ -151,11 +151,11 @@ body{
                             width: 20%;
                             height: 100%;
                             span{
-                                font: lighter 50px/1 'Galada'; color: #8a4928;
+                                font: lighter 50px/1 'Galada'; color: #111;
                                 margin-bottom: 10px;
                             }
                             h2{
-                                font: 30px/1 'Gowun Dodum'; color: #8a4928;
+                                font: 30px/1 'Gowun Dodum'; color: #111;
                                 margin-bottom: 30px;
                             }
                             h3{
@@ -175,7 +175,7 @@ body{
                                 transition: all .5s;
 
                                 &:hover{
-                                    color: #8a4928;
+                                    color: #111;
                                 }
                             }
                         }

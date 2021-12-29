@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sia Portfolio</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="css/style.css">   
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script defer src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/454554dbbe.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
     <section id="wrap">
@@ -43,7 +46,9 @@
                             <h3>25세(98.08.31)</h3>
                         </article>
                         <article>
-                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis laborum tempore impedit blanditiis quae repudiandae ut quod accusantium accusamus aut inventore reiciendis quidem, fugit repellendus? Minima nesciunt ab ut omnis!</h3>
+                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis laborum tempore
+                                impedit blanditiis quae repudiandae ut quod accusantium accusamus aut inventore
+                                reiciendis quidem, fugit repellendus? Minima nesciunt ab ut omnis!</h3>
                         </article>
                         <article>
                             <h4>EDUCATION</h4>
@@ -65,12 +70,14 @@
                         <article>
                             <span>01</span>
                             <h2>기업형 사이트</h2>
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente minima ratione.</h3>
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente minima ratione.
+                            </h3>
                             <a href="https://bsia0831.github.io/portfolio_first/">사이트 방문</a>
                             <a href="https://bsia0831.github.io/portfolio_first/">작업 설명서</a>
                         </article>
                         <article>
-                            <video src="./img/first.mov" muted loop onmouseover="this.play()" onmouseout="this.pause()" autobuffer="true"></video>
+                            <video src="./img/first.mov" muted loop onmouseover="this.play()" onmouseout="this.pause()"
+                                autobuffer="true"></video>
                         </article>
                     </div>
                 </div>
@@ -81,12 +88,14 @@
                         <article>
                             <span>02</span>
                             <h2>Grid 사이트</h2>
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente minima ratione.</h3>
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente minima ratione.
+                            </h3>
                             <a href="https://bsia0831.github.io/portfolio_grid/">사이트 방문</a>
                             <a href="https://bsia0831.github.io/portfolio_grid/">작업 설명서</a>
                         </article>
                         <article>
-                            <video src="./img/second.mov" muted loop onmouseover="this.play()" onmouseout="this.pause()" autobuffer="true"></video>                      
+                            <video src="./img/second.mov" muted loop onmouseover="this.play()" onmouseout="this.pause()"
+                                autobuffer="true"></video>
                         </article>
                     </div>
                 </div>
@@ -97,18 +106,90 @@
                         <article>
                             <span>03</span>
                             <h2>기업형 사이트</h2>
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente minima ratione.</h3>
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente minima ratione.
+                            </h3>
                             <a href="https://bsia0831.github.io/portfolio_first/">사이트 방문</a>
                             <a href="https://bsia0831.github.io/portfolio_first/">작업 설명서</a>
                         </article>
                         <article>
-                            <video src="./img/first.mov" muted loop onmouseover="this.play()" onmouseout="this.pause()" autobuffer="true"></video>
+                            <video src="./img/first.mov" muted loop onmouseover="this.play()" onmouseout="this.pause()"
+                                autobuffer="true"></video>
                         </article>
                     </div>
                 </div>
             </div>
             <div class="swiper-slide contact">
-                <div class="inner">Contact</div>
+                <div class="inner">
+                    <h1>Contact</h1>
+                    <div class="contact-wrap">
+                        <form id="contact-form" class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="text" class="form-control" id="name" placeholder="NAME" name="name"
+                                        value="" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email"
+                                        value="" required>
+                                </div>
+                            </div>
+
+                            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message"
+                                required></textarea>
+
+                            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                                <div class="alt-send-button">
+                                    <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                                </div>
+
+                            </button>
+
+                        </form>
+
+                        <!-- Left contact page -->
+
+                        <div class="direct-contact-container">
+
+                            <ul class="contact-list">
+                                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span
+                                            class="contact-text place">City, State</span></i></li>
+
+                                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a
+                                                href="tel:1-212-555-5555" title="Give me a call">(212)
+                                                555-2368</a></span></i></li>
+
+                                <li class="list-item"><i class="fa fa-envelope fa-2x"><span
+                                            class="contact-text gmail"><a href="mailto:#"
+                                                title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+
+                            </ul>
+
+                            <hr>
+                            <ul class="social-media-list">
+                                <li><a href="#" target="_blank" class="contact-icon">
+                                        <i class="fa fa-github" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#" target="_blank" class="contact-icon">
+                                        <i class="fa fa-codepen" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#" target="_blank" class="contact-icon">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#" target="_blank" class="contact-icon">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                            <hr>
+
+                            <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </article>
 
@@ -119,4 +200,5 @@
         <div class="swiper-pagination"></div>
     </section>
 </body>
+
 </html>

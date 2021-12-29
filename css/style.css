@@ -156,8 +156,7 @@ body {
     #wrap .swiper-wrapper .contact .inner h1 {
       text-align: center;
       margin: 0 auto;
-      padding: 40px 0;
-      font: 300 60px 'Oswald', sans-serif;
+      font: 60px/1 'Gowun';
       color: #111;
       text-transform: uppercase;
       letter-spacing: 6px; }
@@ -171,16 +170,19 @@ body {
       max-width: 840px; }
       #wrap .swiper-wrapper .contact .inner .contact-wrap .form-horizontal {
         max-width: 400px;
-        font-family: 'Lato';
+        font-family: 'Gowun';
         font-weight: 400; }
         #wrap .swiper-wrapper .contact .inner .contact-wrap .form-horizontal .form-control, #wrap .swiper-wrapper .contact .inner .contact-wrap .form-horizontal textarea {
-          max-width: 400px;
+          width: 100%;
+          padding: 10px;
           background-color: #fff;
           color: #111;
-          letter-spacing: 1px; }
+          letter-spacing: 1px;
+          margin-bottom: 10px;
+          border: none;
+          font-family: 'Gowun'; }
         #wrap .swiper-wrapper .contact .inner .contact-wrap .form-horizontal .send-button {
-          margin-top: 15px;
-          height: 34px;
+          height: 50px;
           width: 400px;
           overflow: hidden;
           transition: all .2s ease-in-out; }
@@ -191,81 +193,76 @@ body {
             #wrap .swiper-wrapper .contact .inner .contact-wrap .form-horizontal .send-button .alt-send-button .send-text {
               display: block;
               margin-top: 10px;
-              font: 700 12px 'Lato', sans-serif;
+              font: 700 12px 'Gowun', sans-serif;
               letter-spacing: 2px; }
             #wrap .swiper-wrapper .contact .inner .contact-wrap .form-horizontal .send-button .alt-send-button:hover {
               transform: translate3d(0px, -29px, 0px); }
-      #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container {
-        max-width: 400px; }
-        #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list {
-          margin-left: -30px;
-          padding-right: 20px; }
-          #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list .list-item {
-            line-height: 4;
+      #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list {
+        margin-left: -30px;
+        padding-right: 20px; }
+        #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list .list-item {
+          line-height: 4;
+          color: #111; }
+          #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list .list-item .contact-text {
+            font: 18px 'Gowun';
+            letter-spacing: 1.9px;
             color: #111; }
-            #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list .list-item .contact-text {
-              font: 300 18px 'Lato', sans-serif;
-              letter-spacing: 1.9px;
-              color: #111; }
-              #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list .list-item .contact-text a {
-                color: #111;
-                transition-duration: 0.2s; }
-                #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list .list-item .contact-text a:hover {
-                  color: #111; }
-            #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list .list-item .place {
-              margin-left: 62px; }
-            #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list .list-item .phone {
-              margin-left: 56px; }
-            #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list .list-item .gmail {
-              margin-left: 53px; }
-        #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .social-media-list {
+            #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list .list-item .contact-text a {
+              color: #111;
+              transition-duration: 0.2s; }
+              #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list .list-item .contact-text a:hover {
+                color: #111; }
+          #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list .list-item .place {
+            margin-left: 50px; }
+          #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list .list-item .phone {
+            margin-left: 56px; }
+          #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .contact-list .list-item .gmail {
+            margin-left: 53px; }
+      #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .social-media-list {
+        position: relative;
+        font-size: 20px;
+        text-align: center;
+        width: 100%; }
+        #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .social-media-list a {
+          color: #111; }
+        #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .social-media-list li {
           position: relative;
-          font-size: 22px;
-          text-align: center;
-          width: 100%;
-          margin: 0 auto;
-          padding: 0; }
-          #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .social-media-list a {
-            color: #111; }
-          #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .social-media-list li {
-            position: relative;
-            display: inline-block;
-            height: 60px;
+          display: inline-block;
+          height: 60px;
+          width: 60px;
+          margin: 10px 3px;
+          line-height: 60px;
+          border-radius: 50%;
+          color: #111;
+          background-color: #a7a7a7;
+          cursor: pointer;
+          transition: all .2s ease-in-out; }
+          #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .social-media-list li::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 60px;
-            margin: 10px 3px;
+            height: 60px;
             line-height: 60px;
             border-radius: 50%;
-            color: #111;
-            background-color: #686868;
-            cursor: pointer;
+            opacity: 0;
+            box-shadow: 0 0 0 1px #111;
             transition: all .2s ease-in-out; }
-            #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .social-media-list li::after {
-              content: '';
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 60px;
-              height: 60px;
-              line-height: 60px;
-              border-radius: 50%;
-              opacity: 0;
-              box-shadow: 0 0 0 1px #111;
-              transition: all .2s ease-in-out; }
-            #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .social-media-list li:hover {
-              background-color: #fff; }
-              #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .social-media-list li:hover::after {
-                opacity: 1;
-                transform: scale(1.12);
-                transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65); }
-              #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .social-media-list li:hover a {
-                color: #fff; }
-        #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .copyright {
-          font: 200 14px 'Oswald', sans-serif;
-          color: #555;
-          letter-spacing: 1px;
-          text-align: center; }
-        #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container hr {
-          border-color: rgba(0, 0, 0, 0.6); }
+          #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .social-media-list li:hover {
+            background-color: #fff; }
+            #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .social-media-list li:hover::after {
+              opacity: 1;
+              transform: scale(1.12);
+              transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65); }
+      #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container .copyright {
+        font: 200 14px 'Oswald', sans-serif;
+        color: #555;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: 20px; }
+      #wrap .swiper-wrapper .contact .inner .contact-wrap .direct-contact-container hr {
+        border-color: rgba(0, 0, 0, 0.6); }
   #wrap .swiper-button-next {
     top: auto;
     bottom: 5vh;
